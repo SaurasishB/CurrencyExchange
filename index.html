@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CurrencyExchange</title>
+    <link  rel="stylesheet" href="index.css"/>
+</head>
+<body>
+    <div class="container">
+        <h1>Currency Exchange</h1>
+        <div class="box">
+            <div class="input" id="leftinput">
+                <select class="countryCurrency" name="countryCurrency"></select>
+                <input type="number" value="1" min="0" placeholder="Amount" name="" id="inputAmount"/>  <!--the min="0" prevent the number type from being negetive -->
+            </div>
+            <div class="input" id="rightinput">
+                <select class="countryCurrency" name="countryCurrency"></select>
+                <input type="number" disabled placeholder="Result" name="" id="result"/>
+            </div>
+        </div>
+        <button id="check">EXCHANGE</button>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
